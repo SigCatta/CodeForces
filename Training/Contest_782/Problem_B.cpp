@@ -36,8 +36,6 @@ ll n;
 vector<ld> x, v;
 
 bool goodMin(ld m){
-	ld max = -1;
-	vector<pair<ld, ld>> intervals;
 	ld l = x[0] - m * v[0];
 	ld r = x[0] + m * v[0];
 	rep(i, n){
