@@ -80,6 +80,7 @@ void solve() {
             incr = false;
         }
     }
+    
     cout << nums[0] << "\n";
 }
 
