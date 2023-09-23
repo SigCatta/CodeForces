@@ -60,9 +60,9 @@ void solve(){
 
 	sort(all(a));
 
-	int l = - 1, r = 1e9;
+	int l = - 1, r = 1e9, m;
 	while (l + 1 < r){
-		int m = l + (r - l) / 2;
+		m = l + (r - l) / 2;
 		if(good(m)){
 			r = m;
 		} else{
