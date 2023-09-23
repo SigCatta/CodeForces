@@ -44,7 +44,6 @@ bool goodMin(ld m){
 	}
 
 	return r - l >= 0;
-
 }
 
 void solve(){
