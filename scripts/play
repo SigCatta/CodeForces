@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+# usage: play {problem letter}
+# the file will compile and execute taking what is in the input file as input
+
+fileName="Problem_${1}.cpp"
+executableName="Problem_${1}"
+g++ $fileName -o $executableName -static -O2 -std=c++17
+./$executableName < input

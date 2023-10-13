@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+# usage: cf {problem letter}
+# creates a file named Problem_{letter}.cpp containing the template file
+
+filename="Problem_${1}.cpp"
+cp ~/Projects/CodeForces/template_cpp .
+mv template_cpp $filename
+code $filename
